@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    background: linear-gradient(0deg, white,  black);
+    background-repeat: no-repeat;
+    font-weight: bold;
+   }
+
+   ul {
+    list-style-type: none;
+   }
+   
+   a {
+    color: white;
+    text-decoration: none;
+   }
+
+   input{
+    margin: 0 50px;
+   }
+   .scroll-hidden::-webkit-scrollbar {
+    height: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+.overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Warna hitam putih dengan opacity 50% */
+  }
+
+
+footer{
+    font-weight: normal;
+}
+  
